@@ -5,7 +5,7 @@
     </figure>
     <nav class="navbar">
       <ul>
-        <li :class="link.current? 'active':'' " v-for="(link,i) in links " v-bind:key="'link-'+i">
+        <li :class="link.current? 'active':'' " v-for="link in links " v-bind:key="link.text">
           <a @click="setActive(link)" :href="link.url">
             {{link.text.toUpperCase()}}
           </a>
