@@ -93,10 +93,10 @@ figure{
   height: 80%;
 }
 .container{
-    margin: 0 auto;
-    max-width: 1200px;
+    padding: 0em 8em;
     height: 100px;
     align-items: center;
+    justify-content: space-between;
     display: flex;
 }
 .navbar{

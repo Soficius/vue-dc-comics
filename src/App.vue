@@ -1,17 +1,21 @@
 <template>
   <div>
     <MyHeader></MyHeader>
-    <main></main>
-    <footer></footer>
+    <MyContent></MyContent>
+    <MyFooter></MyFooter>
   </div>
 </template>
 
 <script>
 import MyHeader from './components/MyHeader.vue'
+import MyContent from './components/MyContent.vue'
+import MyFooter from './components/MyFooter.vue'
 export default {
   name: 'Dc-comics',
   components: {
-    MyHeader
+    MyHeader,
+    MyContent,
+    MyFooter
   }
 }
 </script>
@@ -19,7 +23,7 @@ export default {
 <style>
 /* reset */
 *{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -31,5 +35,8 @@ a{
 }
 ul{
   list-style-type: none;
+}
+.container {
+  padding: 2em 8em;
 }
 </style>
