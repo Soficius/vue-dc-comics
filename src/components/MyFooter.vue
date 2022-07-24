@@ -42,7 +42,7 @@
         <div class="flex-row justify-between">
           <a class="subscribe">SIGN-UP NOW!</a>
           <div class="social flex-row">
-            <a href="#">FOLLOW US</a>
+            <a class="pad-lr" href="#">FOLLOW US</a>
             <figure v-for="(social,i) in socials" class="pad-lr" :key="'social-'+i">
               <img :src="'/img/'+ social" alt="social">
             </figure>
@@ -68,16 +68,17 @@ export default {
 }
 </script>
 <style scoped>
+
 .subscribe{
-  border: 3px solid blue;
+  border: 3px solid #0282f6;
   align-items: center;
-  color: white,
+  color: white;
 }
 .social{
   align-items: center;
 }
 .social a{
-  color: blue;
+  color: #0282f6;
 
 }
 .pad-lr{

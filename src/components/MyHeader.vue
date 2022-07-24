@@ -85,6 +85,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+
 img{
   height: 100%;
   max-width: unset;
@@ -120,9 +121,9 @@ ul a{
     padding: 0 6px;
 }
 .active{
-  border-bottom: 3px solid blue;
+  border-bottom: 3px solid #0282f6;
   a{
-    color: blue;
+    color: #0282f6;
   }
 }
 </style>
