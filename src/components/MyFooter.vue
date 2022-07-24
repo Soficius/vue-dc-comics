@@ -44,7 +44,7 @@
           <div class="social flex-row">
             <a class="pad-lr" href="#">FOLLOW US</a>
             <figure v-for="(social,i) in socials" class="pad-lr" :key="'social-'+i">
-              <img :src="'/img/'+ social" alt="social">
+              <img :src="'img/'+ social" alt="social">
             </figure>
           </div>
         </div>
@@ -73,6 +73,7 @@ export default {
   border: 3px solid #0282f6;
   align-items: center;
   color: white;
+  display:flex;
 }
 .social{
   align-items: center;
