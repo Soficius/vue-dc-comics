@@ -68,30 +68,35 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-
-.subscribe{
+.subscribe {
   border: 3px solid #0282f6;
   align-items: center;
   color: white;
-  display:flex;
+  display: flex;
 }
-.social{
+
+.social {
   align-items: center;
 }
-.social a{
+
+.social a {
   color: #0282f6;
 
 }
-.pad-lr{
+
+.pad-lr {
   padding: 0px 4px
 }
-.justify-between{
+
+.justify-between {
   justify-content: space-between;
 }
-footer{
+
+footer {
   color: white;
 }
-.outer-footer{
+
+.outer-footer {
   min-height: 413px;
   background-image: url(../assets/img/footer-bg.jpg);
   background-repeat: no-repeat;
@@ -99,34 +104,40 @@ footer{
   display: flex;
   justify-content: space-between;
 }
-.inner-footer{
-  height:100px;
+
+.inner-footer {
+  height: 100px;
   width: 100%;
   background-color: #303030;
 }
-.container.half{
+
+.container.half {
   padding-right: 0;
-    width: 50%;
+  width: 50%;
 }
-a{
+
+a {
   color: gray;
 }
-.flex-row{
+
+.flex-row {
   display: flex;
 }
-.flex-c-col{
+
+.flex-c-col {
   display: flex;
   flex-direction: column;
   padding: 0 1em;
 }
-ul li{
+
+ul li {
   padding: 2px 0;
 }
-.logo-bg{
+
+.logo-bg {
   width: 40%;
   background-image: url(../assets/img/dc-logo-bg.png);
   background-position: center;
   background-size: cover;
 }
-
 </style>

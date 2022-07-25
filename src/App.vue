@@ -22,20 +22,24 @@ export default {
 
 <style>
 /* reset */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-img{
+
+img {
   max-width: 100%;
 }
-a{
+
+a {
   text-decoration: none;
 }
-ul{
+
+ul {
   list-style-type: none;
 }
+
 .container {
   padding: 2em 8em;
 }

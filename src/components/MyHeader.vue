@@ -86,43 +86,51 @@ export default {
 
 <style scoped lang="scss">
 
-img{
+img {
   height: 100%;
   max-width: unset;
 }
-figure{
+
+figure {
   height: 80%;
 }
-.container{
-    padding: 0em 8em;
-    height: 100px;
-    align-items: center;
-    justify-content: space-between;
-    display: flex;
+
+.container {
+  padding: 0em 8em;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
 }
-.navbar{
+
+.navbar {
   height: 100%;
 }
-ul{
-    display: flex;
-    height: 100%;
+
+ul {
+  display: flex;
+  height: 100%;
 }
-li{
+
+li {
   border-bottom: 3px solid transparent;
   height: 100%;
   display: flex;
   align-items: center;
 
 }
-ul a{
-    color: black;
-    font-weight: 600;
-    font-size: 1em;
-    padding: 0 6px;
+
+ul a {
+  color: black;
+  font-weight: 600;
+  font-size: 1em;
+  padding: 0 6px;
 }
-.active{
+
+.active {
   border-bottom: 3px solid #0282f6;
-  a{
+
+  a {
     color: #0282f6;
   }
 }

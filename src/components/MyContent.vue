@@ -24,7 +24,7 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-main{
+main {
   background-color: black;
   min-height: 100px;
 }
