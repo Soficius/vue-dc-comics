@@ -67,7 +67,7 @@ export default {
   }
 }
 </script>
-<style scoped>
+<style lang="scss" scoped>
 
 .subscribe{
   border: 3px solid #0282f6;

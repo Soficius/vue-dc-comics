@@ -1,23 +1,31 @@
 <template>
   <main>
-    <div class="container">
-      <h2> --> Contents goes here &lt;--</h2>
-    </div>
+    <BooksCards :books="comics"/>
   </main>
 </template>
 <script>
+import axios from 'axios'
+import BooksCards from './BooksCards.vue'
 export default {
-  name: 'MyContent'
+  name: 'MyContent',
+  data: function () {
+    return {
+      comics: []
+    }
+  },
+  mounted () {
+    axios.get('./dc-comics.json').then((res) => {
+      this.comics = res.data
+    })
+  },
+  components: {
+    BooksCards
+  }
 }
 </script>
-<style scoped>
+<style lang="scss" scoped>
 main{
   background-color: black;
   min-height: 100px;
 }
-
-h2{
-  color:white;
-}
-
 </style>
